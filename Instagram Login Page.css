@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 10px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 935px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.phone-image img {
+    max-width: 400px;
+}
+
+.login-form {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 30px 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #385185;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.facebook-login img {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #00376b;
+    font-size: 12px;
+}
+
+.signup-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-container a {
+    color: #3897f0;
+    font-weight: bold;
+}
+
+.app-download {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-icons img {
+    max-width: 120px;
+    margin: 5px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links > a {
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-container {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.footer-links > a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .phone-image {
+        display: none;
+    }
+}
